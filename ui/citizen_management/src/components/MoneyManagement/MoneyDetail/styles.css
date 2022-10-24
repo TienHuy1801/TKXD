@@ -1,0 +1,59 @@
+#table{
+  padding: 2em;
+  margin-left: 12%;
+  width: 76%;
+  margin-top: 40px;
+  margin-bottom: 2%;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.63); 
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.63);
+}
+
+#table .dx-datagrid-rowsview .dx-row-focused.dx-data-row > td:not(.dx-focused) {
+  background-color: #c2c2c2;
+  border-bottom-color: #c2c2c2;
+  border-top-color: #c2c2c2;
+}
+
+.dx-widget {
+  font-size: 18px;
+}
+
+.headerColumn[role="columnheader"]{  
+  font-size: 20px;
+  color: black;
+}
+
+.detail{
+  text-align: left;
+  font-size: 20px;
+  padding-left: 5%;
+  padding-bottom: 2%;
+}
+
+.infor{
+  margin: 2em;
+  margin-top: -1px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.63); 
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.63);
+  border-radius: 10px;
+}
+
+.infor div{
+  margin-top: 2px;
+}
+
+.header{
+  font-size: 25px;
+}
+
+.textCol{
+  text-align: center!important;
+}
+
+.dx-datagrid-rowsview .dx-row:nth-child(odd){
+  background-color: #f1f0f0;
+}

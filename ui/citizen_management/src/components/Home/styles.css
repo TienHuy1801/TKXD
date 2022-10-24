@@ -1,0 +1,42 @@
+.home{
+    width: 100%;
+    padding-left: 2em;
+    font-size: 25px;
+}
+
+.manage--title{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 25px;
+}
+
+.home-item{
+    flex: 1;
+    margin: 20px 70px 5px 10px;
+    padding: 25px 15px 30px 20px;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5); 
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.home-paper, .home-now{
+    display:flex;
+    justify-content: space-between;
+}
+
+.home-quantum{
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.chart-title{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.no-login{
+    min-height: 90vh;
+    background: url(welcome.jpg) no-repeat;
+    background-size: cover;
+}

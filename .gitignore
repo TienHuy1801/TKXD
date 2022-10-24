@@ -1,0 +1,4 @@
+/server/node_modules
+/server/.env
+/ui/citizen_management/node_modules
+/ui/citizen_management/.env

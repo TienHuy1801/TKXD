@@ -1,0 +1,23 @@
+.header-right-box {
+  position: absolute;
+  display: flex;
+  width: 250px;
+  max-width: 350px;
+  height: 250px;
+  max-height: 0px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  overflow: hidden;
+  top: 4rem;
+  transition: max-height 0.3s;
+  right: 0.5rem;
+  z-index: 10;
+}
+
+.header-right-box.active {
+  max-height: 450px;
+}

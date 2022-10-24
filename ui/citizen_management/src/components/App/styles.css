@@ -1,0 +1,11 @@
+.page-wrapper {
+  padding-left: 280px;
+  /* display: flex; consider this */
+  height: 90vh;
+  overflow: auto;
+  transition: all 0.2s ease-in;
+}
+
+.page-wrapper.full {
+  padding-left: 80px;
+}

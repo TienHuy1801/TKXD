@@ -1,0 +1,100 @@
+body,  html {
+  height: 100%;
+}
+ 
+#main span, #contribute span{
+  font-size: 25px;
+  font-weight: 550;
+}
+
+#main {
+  margin-top: 40px;
+  margin-left: 6%;
+  margin-bottom: 2%;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 88%;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.63); 
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.63);
+}
+
+#contribute {
+  margin-top: 40px;
+  margin-left: 15%;
+  margin-bottom: 2%;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 70%;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.63); 
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.63);
+}
+
+.header[role="columnheader"]{  
+  font-size: 20px;
+  color: black;
+}  
+
+td[role="columnheader"] {  
+  text-align: center!important ;
+} 
+
+.dx-datagrid-rowsview .header {  
+  text-align: center!important;  
+  font-size: 18px;
+}  
+
+.dx-datagrid-rowsview .header--name{
+  text-align: left!important;
+}
+
+.dx-widget, .dx-widget *, .dx-widget ::after, .dx-widget ::before, .dx-widget::after, .dx-widget::before {
+  text-decoration: none!important;
+}
+
+.sum-money{
+  font-size: 17px;
+}
+
+.dx-datagrid-rowsview .header--money{
+  text-align: right!important;
+}
+
+.dx-fa-button .dx-overlay-content .dx-fa-button-label-wrapper .dx-fa-button-label{
+  font-size: 18px;
+  background-color: #f8f5f5;
+}
+
+.dx-overlay .dx-widget .dx-visibility-change-handler .dx-fa-button .dx-overlay-wrapper{
+  margin-left: -10px;
+}
+
+.dx-fa-button.dx-fa-button-main .dx-overlay-content .dx-fa-button-label-wrapper .dx-fa-button-label{
+  display: none;
+}
+
+.dx-fa-button.dx-fa-button-main.dx-fa-button-with-label .dx-overlay-content .dx-fa-button-icon, .dx-fa-button.dx-fa-button-main.dx-fa-button-with-label .dx-overlay-content .dx-fa-button-icon-close {
+  padding: 15px 15px 15px 12px;
+}
+
+.search{
+  margin-right: 30px;
+}
+
+.dx-dialog-message{  
+  font-size: 20px;
+}
+
+.dx-datagrid-rowsview .dx-row:nth-child(odd){
+  background-color: #f1f0f0;
+}
+
+#contribute .dx-datagrid-rowsview .dx-row-focused.dx-data-row > td:not(.dx-focused),
+#main .dx-datagrid-rowsview .dx-row-focused.dx-data-row > td:not(.dx-focused) {
+  background-color: #c2c2c2;
+  border-bottom-color: #c2c2c2;
+  border-top-color: #c2c2c2;
+}

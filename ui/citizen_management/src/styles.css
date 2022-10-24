@@ -1,0 +1,29 @@
+* {
+  font-family: 'Sora', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background-color: #eee;
+}
+.btn-react {
+  border-radius: 20px;
+}
+.form-check-input:checked {
+  background-color: #5c636a;
+  border-color: #5c636a;
+}
+.col-form-label {
+  font-size: 15px;
+}

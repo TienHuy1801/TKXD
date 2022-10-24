@@ -1,0 +1,28 @@
+.symbol-link {
+  display: flex;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #505256;
+}
+
+.symbol {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  margin-left: 10px;
+  background-color: #fff;
+  color: #505256;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.symbol:hover {
+  background-color: #f1f2f4;
+  color: #000;
+}
+.symbol.active {
+  background-color: #f1f2f4;
+  color: #000;
+}

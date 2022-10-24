@@ -1,0 +1,16 @@
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  padding:4px 15px;
+  background-image: linear-gradient(to right, #d3d3d3, #fff);
+}
+
+.sidebar-header .minimize {
+  width: 80px;
+}
+
+.toggle-btn {
+  background: none;
+  border-color: #000;
+  margin-left: auto;
+}

@@ -1,0 +1,86 @@
+//add person (head)
+{
+  "householdId": "61c58a6ae33701b620b80bc5",
+  "name": "name",
+  "aliases": "aliases",
+  "dateOfBirth": "10/01/2001",
+  "birthPlace": "birthPlace",
+  "nation": "nation",
+  "job": "job",
+  "jobAddress": "jobAddress",
+  "relationship": 0,
+  "numberIdentity": "numberIdentity",
+  "dateOfIssue": "10/01/2019",
+  "placeOfIssue": "placeOfIssue"
+}
+//add person (mem)
+{
+  "householdId": "61c58a6ae33701b620b80bc5",
+  "name": "name mem",
+  "aliases": "aliases",
+  "dateOfBirth": "10/01/2001",
+  "birthPlace": "birthPlace",
+  "nation": "nation",
+  "job": "job",
+  "jobAddress": "jobAddress",
+  "relationship": 1,
+  "numberIdentity": "numberIdentity",
+  "dateOfIssue": "10/01/2019",
+  "placeOfIssue": "placeOfIssue"
+}
+//edit person
+{
+  "name": "name edit",
+  "aliases": "aliases",
+  "dateOfBirth": "10/01/2001",
+  "birthPlace": "birthPlace",
+  "nation": "nation",
+  "job": "job",
+  "jobAddress": "jobAddress",
+  "relationship": 0,
+  "numberIdentity": "numberIdentity",
+  "dateOfIssue": "10/01/2019",
+  "placeOfIssue": "placeOfIssue"
+}
+//registerForTemporaryResidence 
+{
+  "place": "place",
+  "date": "11/11/2019",
+  "note": ""
+}
+
+
+//createHousehold
+{
+  "number": 0,
+  "apartmentNumber": 1,
+  "place": "place"
+}
+//tách
+{
+  "people": [{
+      "id": "61c68ea1e61b31fbb5b0ef8d",
+      "relation": 0
+  }],
+  "place": "place",
+  "number": 1,
+  "apartmentNumber": 2
+}
+
+//addMoney
+{
+  "type": 1,
+  "name": "name",
+  "amountOfMoney": 0,
+  "date": "11/11/2019",
+  "note": "note",
+  "households": [
+      "61c68fbc23f3042ff2f6ef58"
+  ]
+}
+//collect
+{
+  "householdId": "61c676fc0a29f2eb7053808b",
+  "moneyId": "61c6795e0a29f2eb705380a8",
+  "amountOfMoney": 10
+}
